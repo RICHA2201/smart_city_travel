@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_color"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Smart City Travel App!"
+android:layout_marginTop="50dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+        android:gravity="center"></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="109dp"
+
+        android:src="@drawable/travel">
+
+    </ImageView>
+    <Button
+        android:id="@+id/btn_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_btn"
+android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="SEARCH PLACES"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000">
+
+    </Button>
+    <Button
+        android:id="@+id/btn_route"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_btn"
+android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="FIND HOTELS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000">
+
+    </Button>
+    <Button
+        android:id="@+id/btn_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_btn"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="FIND ROUTES"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000">
+
+    </Button>
+
+</LinearLayout>
